@@ -1,0 +1,969 @@
+:root {
+    --main-color: #fff;
+    --heads-weight:800;
+    --letter-spacing: 1px;
+}
+@font-face {
+    font-family: main;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+body {
+    font-family: main;
+}
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* --------*header*---------- */
+/* --------*navbar*---------- */
+header {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    .child-of-header {
+        background-color: rgba(0,0,0,0.6);
+        height: 100%;
+    }
+}
+nav {
+    /* position: fixed !important; */
+    width: 100% !important;
+    z-index: 10000;
+    transition: background-color 0.5s ease-in;
+}
+
+.navbar-brand {
+    --mainc: white;
+}
+.navbar-brand {
+    color: var(--mainc) !important;
+    font-weight: var(--heads-weight);
+    letter-spacing: var(--letter-spacing);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link {
+    --mainc: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link {
+    color: var(--mainc) !important;
+    
+}
+header .active {
+    border-bottom: rgb(255, 255, 255) 3px solid;
+}
+nav.scroll {
+    background-color: rgb(250, 250, 250) !important;
+    position: fixed;
+    width: 100% !important;
+    z-index: 34123413242;
+}
+.navbar-nav  {
+    transition: color 0.5s ease-in;
+}
+nav.scroll .nav-item a  {
+    color: black !important;
+    font-weight: 500 !important;
+}
+nav.scroll .navbar-brand {
+    color: black !important;
+}
+nav.scroll .container {
+    padding-top: 0 !important;
+}
+.icon {
+    color: white !important;
+}
+/* --------*Home*---------- */
+.home {
+    position: relative;
+    top: 25%;
+
+}
+.parent-an {
+    overflow: hidden;
+    height: 80px;
+    width: fit-content;
+}
+.head {
+    font-size: 50px;
+    font-weight: var(--heads-weight);
+}
+h1,h2 {
+    font-size: 42px;
+    color: white;
+}
+.one::before {
+    animation: typing 13s infinite;
+    content: "";
+    color: white;
+    text-shadow: 1px 1px 3px white;
+    font-size: 42px !important;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    1% {
+        content: " W|";
+    }
+    2% {
+        content: "We|";
+    }
+    3% {
+        content: " Web|";
+    }
+    4% {
+        content: " Web |";
+    }
+    5% {
+        content: " Web D|";
+    }
+    6% {
+        content: " Web De|";
+    }
+    7% {
+        content: " Web Des|";
+    }
+    8% {
+        content: " Web Desi|";
+    }
+    9% {
+        content: " Web Desin|";
+    }
+    10% {
+        content: " Web Desine|";
+    }
+    11% {
+        content: " Web Desiner|";
+    }
+    12% {
+        content: " Web Desiner |";
+    }
+    13% {
+        content: " Web Desiner |";
+    }
+    14% {
+        content: " Web Desiner |";
+    }
+    15% {
+        content: " Web Desiner |";
+    }
+    16% {
+        content: " Web Desiner|";
+    }
+    17% {
+        content: " Web Desine|";
+    }
+    18% {
+        content: " Web Desin|";
+    }
+    19% {
+        content: " Web Desi|";
+    }
+    20% {
+        content: " Web Des|";
+    }
+    21% {
+        content: " Web De|";
+    }
+    22% {
+        content: " Web D|";
+    }
+    23% {
+        content: " Web |";
+    }
+    24% {
+        content: " Web|";
+    }
+    25% {
+        content: " We|";
+    }
+    26% {
+        content: " W|";
+    }
+    27% {
+        content: " ";
+    }
+    28% {
+        content: " ";
+    }
+    29% {
+        content: " ";
+    }
+    30% {
+        content: " ";
+    }
+    31% {
+        content: " ";
+    }
+    32% {
+        content: " ";
+    }
+    33% {
+        content: " ";
+    }
+    34% {
+        content: " U|";
+    }
+    35% {
+        content: " UI|";
+    }
+    36% {
+        content: " UI/|";
+    }
+    37% {
+        content: " UI/U|";
+    }
+    38% {
+        content: " UI/UX|";
+    }
+    39% {
+        content: " UI/UX |";
+    }
+    40% {
+        content: " UI/UX D|";
+    }
+    41% {
+        content: " UI/UX De|";
+    }
+    42% {
+        content: " UI/UX Des|";
+    }
+    43% {
+        content: " UI/UX Desi|";
+    }
+    44% {
+        content: " UI/UX Desig|";
+    }
+    45% {
+        content: " UI/UX Design|";
+    }
+    46% {
+        content: " UI/UX Designe|";
+    }
+    47% {
+        content: " UI/UX Designer|";
+    }
+    48% {
+        content: " UI/UX Designer |";
+    }
+    49% {
+        content: " UI/UX Designer |";
+    }
+    50% {
+        content: " UI/UX Designer |";
+    }
+    51% {
+        content: " UI/UX Designer |";
+    }
+    52% {
+        content: " UI/UX Designer|";
+    }
+    53% {
+        content: " UI/UX Designe|";
+    }
+    54% {
+        content: " UI/UX Design|";
+    }
+    55% {
+        content: " UI/UX Desig|";
+    }
+    56% {
+        content: " UI/UX Desi|";
+    }
+    57% {
+        content: " UI/UX Des|";
+    }
+    58% {
+        content: " UI/UX De|";
+    }
+    59% {
+        content: " UI/UX D|";
+    }
+    60% {
+        content: " UI/UX |";
+    }
+    61% {
+        content: " UI/UX|";
+    }
+    62% {
+        content: " UI/U|";
+    }
+    63% {
+        content: " UI/|";
+    }
+    64% {
+        content: " UI|";
+    }
+    65% {
+        content: " U|";
+    }
+    66% {
+        content: " ";
+    }
+    67% {
+        content: " ";
+    }
+    68% {
+        content: " ";
+    }
+    69% {
+        content: " ";
+    }
+    70% {
+        content: " ";
+    }
+    71% {
+        content: " ";
+    }
+    72% {
+        content: " ";
+    }
+    73% {
+        content: " F|";
+    }
+    74% {
+        content: " Fl|";
+    }
+    75% {
+        content: " Flu|";
+    }
+    76% {
+        content: " Flut|";
+    }
+    77% {
+        content: " Flutt|";
+    }
+    78% {
+        content: " Flutte|";
+    }
+    79% {
+        content: " Flutter|";
+    }
+    80% {
+        content: " Flutter |";
+    }
+    81% {
+        content: " Flutter |";
+    }
+    82% {
+        content: " Flutter |";
+    }
+    83% {
+        content: " Flutter |";
+    }
+    84% {
+        content: " Flutter|";
+    }
+    85% {
+        content: " Flutte|";
+    }
+    86% {
+        content: " Flutt|";
+    }
+    87% {
+        content: " Flut|";
+    }
+    88% {
+        content: " Flu|";
+    }
+    89% {
+        content: " Fl|";
+    }
+    90% {
+        content: " F|";
+    }
+    91% {
+        content: " ";
+    }
+    92% {
+        content: "w|";
+    }
+    93% {
+        content: "wa|";
+    }
+    94% {
+        content: "wai|";
+    }
+    95% {
+        content: "wait|";
+    }
+    96% {
+        content: "wai|";
+    }
+    97% {
+        content: "wa|";
+    }
+    98% {
+        content: "w|";
+    }
+    99% {
+        content: "|";
+    }
+    100% {
+        content: "";
+    }
+}
+.icons-home i{
+    font-size: 20px !important;
+    transition: all 1s;
+}
+.icons-home > div {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    cursor: pointer;
+}
+.icons-home > div:hover {
+    background-color: white;
+}
+.icons-home > div:hover i {
+    color: black !important;
+}
+/* --------*main*---------- */
+/* --------*About*---------- */
+.hero {
+    width: 90%;
+    margin: auto;
+    transform: translateX(50px);
+    position: relative ;
+    z-index: 12;
+}
+.About .container .row .parent-img {
+    position: relative;
+}
+.About .container .row .parent-img::before {
+    content: "";
+    width: 210px;
+    height: 80%;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    z-index: -2;
+    display: block;
+}
+.progress-bar {
+    color: white !important;
+    box-shadow: 2px 2px 3px #999;;
+}
+h3 {
+    font-weight: 900 !important;
+}
+.dis {
+    color: #999 !important;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.disc {
+    color: #999 !important;
+}
+.disc > span {
+    font-weight: 800;
+}
+.linkone{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.linkone:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.linktwo {
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: black solid 1px;
+    transition: all 1s;
+}
+.linktwo:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* --------*Services*---------- */
+.services {
+    background-color: #f7f7f7;
+}
+.services-title h4{
+    font-weight: var(--heads-weight) !important;
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+}
+.services-title  .dotss::after {
+    content: "";
+    width: 210px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -5px;
+    left: 43.3%;
+    z-index: -1;
+    display: block;
+}
+.services  .item {
+    cursor: pointer;
+    transition: all .5s;
+    background-color: white;
+}
+.services  .item:hover {
+    transform: skewX(2deg);
+    box-shadow: 3px 3px 7px rgb(228, 228, 228), -3px -3px 7px rgb(228, 228, 228);
+}
+.services  .item:hover .serv-icon {
+    background-color: black !important;
+}
+.services  .item:hover i {
+    color: white;
+}
+.serv-icon {
+    background-color: #f7f7f7;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.serv-icon > i {
+    font-size: 33px;
+    transition: all .5s;
+}
+.box-info h5 {
+    color: #343434;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+.box-info p {
+    color:  #748182;
+}
+/* --------*Portfolio*---------- */
+.Portfolio  h5{
+    font-weight: var(--heads-weight) !important;
+    font-size: 40px !important;
+    position: relative;
+    z-index: 1;
+}
+.Portfolio  .dotsp::after {
+    content: "";
+    width: 210px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 43.3%;
+    z-index: -1;
+    display: block;
+}
+.Portfolio .item {
+    position: relative;
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+}
+.Portfolio .item .overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0px;
+    border: #9b9b9b solid 5px;
+    left: 0px;
+    transition: all .5s;
+}
+.Portfolio .item:hover .overlay {
+    opacity: 1;
+}
+.Portfolio .item .overlay i {
+    font-size: 15px !important;
+    margin: 0 5px;
+    color: white;
+}
+.Portfolio .item h6 {
+    font-weight: var(--heads-weight);
+    
+}
+.circle-icon {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.circle-icon i {
+    transition: all .5s;
+}
+.circle-icon:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+.circle-icon:hover i {
+    color: black !important;
+}
+.nav-link {
+    background-color: transparent !important;
+    color: black !important;
+    font-weight: 700 !important;
+    
+}
+.Portfolio .nav-item .active {
+    background-color: transparent !important;
+    color: black !important;
+    font-weight: 700 !important;
+    border-bottom: 3px black solid !important;
+    border-radius: 0% !important;
+    padding-bottom: 5px;
+    padding-inline: 0;
+}
+/* --------*Clients*---------- */
+.Clients {
+    background-color: #f7f7f7;
+}
+.Clients .container .dotst {
+    font-weight: var(--heads-weight) !important;
+    font-size: 40px !important;
+    position: relative;
+    z-index: 1;
+}
+.dotst::after {
+    content: "";
+    width: 280px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 39.5%;
+    z-index: -1;
+    display: block;
+}
+.Testimonials {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.good-dis {
+    word-spacing: 2px !important;
+    font-size: 15px !important;
+    color: #748182 !important;
+    line-height: 1.6;
+    margin-block: 20px;
+}
+.carousel-indicators {
+    transform: translateY(50px);
+}
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #748182 !important;
+}
+.name-clients {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.dis-clients {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+/* --------*Score*---------- */
+.item-one i,span{
+    cursor: pointer;
+}
+.item-one i {
+    font-size: 33px !important;
+}
+.strong {
+    font-weight: 900;
+    font-size: 30px;
+}
+.reply {
+    font-weight: 600;   
+    font-size: 15px;
+    color: #748182;
+}
+
+/* --------*team*---------- */
+.team {
+    background-color: #f7f7f7;
+}
+.team .container {
+    width: 70% !important;
+}
+.title-team .title {
+    font-weight: var(--heads-weight) !important;
+    font-size: 40px !important;
+    position: relative;
+    z-index: 1;
+    color: #0e0e0e !important;
+}
+.title-team .title::after {
+    content: "";
+    width: 210px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 40.1%;
+    z-index: -1;
+    display: block;
+}
+.childone {
+    height: 75%;
+    width: 100%;
+    position: relative;
+    display: flex ;
+    justify-content: center;
+    align-items: center;  transition: all 1s;
+}
+.team img {
+    width: 100%;
+    transition: all .5s;
+}
+.sontwo {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg) scale(.5,.5);
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0;
+    z-index: 234234;
+    transition: all .5s;
+    cursor: pointer;
+}
+.team .item:hover .sontwo{
+    transform: rotate(0deg) scale(.98,.98);
+    opacity: 1;
+}
+.team img:hover {
+    transform: scale(1.2);
+}
+.sontwo > div {
+    background-color: #0e0e0e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+.sontwo > div:hover {
+    background-color: white;
+    border: #0e0e0e 1px solid;
+}
+.sontwo > div:hover i{
+    color: black !important;
+}
+.sontwo > div > i {
+    color: white !important;
+    transition: all .5s;
+}
+.childtwo {
+    background-color: #565656 !important; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.special-info-one {
+    color: white;
+    font-size: 25px !important;
+    font-weight: 600;
+}
+.special-info-two {
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase !important ;
+}
+/* --------*Contact*---------- */
+.contact .container {
+    width: 60% !important;
+}
+.dotc {
+    font-weight: var(--heads-weight) !important;
+    font-size: 40px !important;
+    position: relative;
+    z-index: 1;
+}
+.dotc::after {
+    content: "";
+    width: 250px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 36%;
+    z-index: -1;
+    display: block;
+}
+.container-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    cursor: pointer;
+}
+.container-icon i {
+    font-size: 20px !important;
+    transition: all 1s;
+    cursor: pointer;
+}
+.container-icon:hover {
+    background-color: #0e0e0e;
+}
+.container-icon:hover i {
+    color: #f7f7f7;
+}
+.title-contact {
+    color: #0e0e0e !important;
+    font-weight: 700;    cursor: pointer;
+}
+.dis-contact {
+    color: #748182;
+    font-size: 15px !important;    cursor: pointer;
+}
+.row input {
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    transition: all .5s;
+}
+.row input:hover {
+    box-shadow: 2px 2px 5px #9b9b9b , -2px -2px 5px #9b9b9b;
+}
+.row textarea {
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    padding: 5px 10px;
+    resize: none;
+    height: 200px;
+    transition: all .5s;
+}
+.row textarea:hover {
+    box-shadow: 2px 2px 5px #9b9b9b , -2px -2px 5px #9b9b9b;
+}
+.special button {
+    outline: none;
+    border: none;
+    width: fit-content;
+}
+.special button a {
+    color: white;
+    background-color: #0e0e0e;
+    border-radius: 5px;
+    padding: 10px 35px;
+    transition: all .5s;
+}
+.special button a:hover {
+   background-color: white;
+   color: #0e0e0e;
+   border: 1px solid black;
+}
+/* --------*footer*---------- */
+footer {
+    background-color: #1c1c1c;
+}
+footer span {
+    word-spacing: 2px;
+    color: #748182;
+    font-size: 13px;
+    line-height: 1.6;
+}
+/* --------*media*---------- */
+@media screen and (max-width:768px){
+    .hero {
+        transform: translateX(15px);
+    }
+    .About .container .row .parent-img::before {
+        transform: translateX(-35px) translateY(-10px) ;
+    }
+    .services-title  .dotss::after {
+        transform: translateX(-75px);
+    }
+    .Portfolio  .dotsp::after {
+        transform: translateX(-80px);
+    }
+
+    .title-team .title::after {
+        transform: translateX(-50px);
+    }
+    .title-team .title::after {
+        transform: translateX(-74px);
+    }
+    .team .item:hover .sontwo{
+        transform: rotate(0deg) scale(.95,.90)  !important;
+        opacity: 1;
+    }
+    .childtwo {
+        transform: translateY(-10px) !important;
+    }
+
+
+    textarea {
+        transform: translateY(20px);
+    }
+    .special > button {
+        transform: translateY(20px);
+    }
+}
+@media screen and (max-width:992px) {
+    .About .container .row .parent-img::before {
+        transform: translateX(-35px) translateY(60px) ;
+    }
+    .services-title  .dotss::after {
+        transform: translateX(-55px);
+    }
+    .Portfolio  .dotsp::after {
+        transform: translateX(-50px);
+    }
+    .dotst::after {
+        transform: translateX(-65px);
+    }
+    .title-team .title::after {
+        transform: translateX(-50px);
+    }
+    .dotc::after {
+        transform: translate(-60px, 0px);
+        width: 250px;
+    }
+    textarea {
+        transform: translateY(0px);
+    }
+}
